@@ -1,10 +1,10 @@
 
 import React, { Component } from 'react';
-import Card from "./components/Card";
-import Wrapper from "./components/Wrapper";
-import Score from "./components/Score";
-import cards from "./cards.js.js";
-import './App.css';
+import Card from "./components/card/index";
+import Wrapper from "./components/wrapper";
+import Score from "./components/score";
+import cards from "./cards.json";
+import './app.css';
 
 class App extends Component {
    // Sets this.state.cards to the cards json array
